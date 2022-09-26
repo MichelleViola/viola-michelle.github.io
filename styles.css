@@ -1,0 +1,126 @@
+.body {
+    background-color: black;
+}
+
+.sistema_solare {
+    background-image:url(immagini/pianeti.jpg);  /*qui inserisco l'img come sfondo del div*/
+    background-position: 0 0;
+    background-repeat: none;
+   background-size:100% 100%;
+   height: 1080px;
+   
+
+}
+
+.sole {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 250px;
+    height: 250px;
+    position: absolute;  /* questo serve per posizionare correttamente in modo che non decida lui */
+    margin-left: 0em;
+    margin-top: 3em;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+.mercurio {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 80px;
+    height: 80px;
+    position: absolute;  /* questo serve per posizionare correttamente in modo che non decida lui */
+    margin-left: 17em;
+    margin-top: 12em;
+    border-radius: 100%;
+    font-size: 10px;
+    color: white;
+}
+
+.venere {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 110px;
+    height: 110px;
+    position: absolute;  /* questo serve per posizionare correttamente in modo che non decida lui */
+    margin-left: 13em;
+    margin-top: 9em;
+    border-radius: 100%;
+    text-align:center;
+    color:white;
+}
+
+.terra {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 120px;
+    height: 120px;
+    position: absolute;  /* questo serve per posizionare correttamente in modo che non decida lui */
+    margin-left: 16em;
+    margin-top: 8em;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.marte {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 100px;
+    height: 100px;
+    position: absolute;  /* questo serve per posizionare correttamente in modo che non decida lui */
+    margin-left: 20em;
+    margin-top: 10em;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.giove {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 100px;
+    height: 100px;
+    position: absolute;  /* questo serve per posizionare correttamente in modo che non decida lui */
+    margin-left: 15em;
+    margin-top: 5em;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.saturno {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 100px;
+    height: 100px;
+    position: absolute;  /* questo serve per posizionare correttamente in modo che non decida lui */
+    margin-left: 43em;
+    margin-top: 15em;
+    border-radius: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.urano {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 100px;
+    height: 100px;
+    margin-left: 58em;
+    margin-top:22em;
+    position: absolute;
+    border-radius: 100%;
+    font-size: large;
+    color: white;
+}
+
+.nettuno {
+    /*background-color: blue; /*serve per vedere dove lo sposti*/
+    width: 100px;
+    height: 100px;
+    margin-left: 67em;
+    margin-top: 22em;
+    position: absolute;
+    border-radius: 100%;
+    font-size: large;
+    color: white;
+}
